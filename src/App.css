@@ -1,0 +1,528 @@
+.NavBar_Outline{
+  width: 80vw;
+  height: 13vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.NavBar_Part1{
+  width: 65%;
+  height: 60%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.NavBar_Part2{
+  width: 35%;
+  height: 60%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Search{
+  width: 87%;
+  height: 94%;
+  font-size: 20px;
+  /* background-color: #252525; */
+  border: none;
+}
+.Search_Button{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Search_Img{
+  width: 80%;
+  height: 80%;
+}
+.NavBar_Part2_Inside{
+  width: 75%;
+  height: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Bio_part1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.Bell_div{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Bell_Icon{
+  width: 70%;
+  height: 70%;
+}
+.Person_Icon{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+.Icon{
+  width: 70%;
+  height: 105%;
+  border-radius: 25px;
+}
+.Bio_part2{
+  width: auto;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.Name{
+  width: auto;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.Select{
+  width: 20px;
+  margin-left: 7px;
+  border: none;
+}
+.SideBar_Outline{
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.all{
+  display: flex;
+  flex-direction: row;
+}
+.Insta_Pic{
+  width: 75%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Insta_Pic_Icon{
+  width: 30%;
+  height: 60%;
+  margin-top: 5px;
+}
+.Insta_Pic_Icon_img{
+  width: 100%;
+  height: 100%;
+  /* border-radius: 25px; */
+}
+.Menu_Portion{
+  width: 75%;
+  height: 60%;
+  margin-top: 20%;
+  margin: auto;
+}
+.Menu_Option{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7.5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.Menu_Option:hover{
+  background-color: silver;
+}
+.Option_Line{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Option_Pic{
+  width: 15%;
+  height: 100%;
+}
+.Option_Pic_Icon{
+  width: 100%;
+  height: 100%;
+}
+.Option_Text{
+  width: 70%;
+  height: 80%;
+  margin-left: 10%;
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Back_Pic{
+  height: 87vh;
+  width: 80vw;
+}
+.BackPic_and_NavBar{
+  display: flex;
+  flex-direction: column;
+}
+.Back_Pic_Icon{
+  width: 100%;
+  height: 100%;
+}
+.Info_Chart{
+  width: 77vw;
+  height: 84vh;
+  border-radius: 30px;
+  margin-top: -87vh;
+  opacity: 0.7;
+  z-index: 3;
+  background-color: gray;
+}
+.Info_Chart1{
+  width: 77vw;
+  height: 84vh;
+  /* background-color: silver; */
+  border-radius: 30px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -84vh;
+
+}
+.Info_Chart_Part1{
+  width: 40%;
+  height: 90%;
+  border-radius: 30px;
+  margin: auto;
+  /* margin-top: -80vh; */
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid 2px gray; */
+  background-color: white;
+
+  /* box-shadow: 4px 4px gray; */
+}
+.Info_Chart_Part11{
+  width: 40%;
+  height: 90%;
+  border-radius: 30px;
+  margin: auto;
+  /* margin-top: -80vh; */
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.Profile_Pic{
+  width: 100%;
+  height: 43%;
+  border-radius: 30px 30px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.Profile_Pic_Frame{
+  width: 85%;
+  height: 100%;
+  border-radius: 30px 30px 0px 0px;
+}
+.Profile_Pic_Frame_Inside{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 30px 0px 0px;
+}
+.Personal_Info{
+  width: 85%;
+  height: 54%;
+  border-radius: 0px 0px 30px 30px
+  auto
+}
+.Personal_Info_Location_And_CD{
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 10px;
+
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.Personal_Info_Profile{
+  width: 30%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.Personal_Info_Location{
+  width: 70%;
+  height: 100%;
+  padding: 5px 0px;
+
+  color: gray;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+.Phone_and_Nubmber{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 1.5px silver;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.Person_Name{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.Alert{
+  width: 100%;
+  height: 15%;
+  color: red; font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.Alert_Pic{
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+}
+.Phone_and_Nubmber1{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-radius: 0px 0px 25px 25px;
+}
+.Save_Button{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(255, 115, 0);
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+.Save_Button:hover{
+  background-color: rgb(255, 166, 0);
+}
+.Info_Chart_Part2{
+  width: 100%;
+  height: 90%;
+  border-radius: 25px;
+  background-color: white;
+}
+.Info_Chart_Part{
+  width: 100%;
+  height: 50%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.Info_Chart_Part3{
+  width: 100%;
+  height: 50%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.Account{
+  width: 100%;
+  height: 30%;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Account_Detail{
+  width: 80%;
+  height: 60%;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.Following{
+  margin-top: 10px;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Follow{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+
+}
+.Follow_Num{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Following_Com{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  overflow: hidden;
+}
+.Followers{
+  margin-top: 10px;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  justify-content: center;
+
+}
+.Account_Com{
+  width: 100%;
+  height: 15%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 20px 20px;
+}
+.Basic_Account_Component{
+  width: 75%;
+  height: 100%;
+  color: black;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0px 2.5%;
+  font-weight: 500;
+}
+.Basic_Account_Component1{
+  width: 75%;
+  height: 100%;
+  color: black;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0px 2.5%;
+  font-weight: 500;
+}
+.Account_Com1{
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 20px 20px;
+  max-height: 45px;
+}
+.Basic_Account_Component2{
+  width: 75%;
+  height: auto;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 1% 2.5%;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.Basic_Account_Component1:hover{
+  text-decoration: underline;
+  color: darkblue;
+  font-size: 18px;
+}
+.Account_Amit{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.Following_Com:hover{
+  color: darkblue;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.Account_Amit:hover{
+  color: darkblue;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.Warning_Outline{
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  margin-top: -400px;
+  position: relative;
+  z-index: 10;
+}
+.Basic_Warning{
+  width: 30%;
+  height: 100%;
+  background-color: brown;
+  opacity: 0.7;
+}
+.Warning_First_Portion{
+  width: 80%;
+  height: 20%;
+  padding: 0% 10%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Warning_Second_Portion{
+  width: 100%;
+  height: 80%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+.Close_Pic{
+  width: 5%;
+  height: 30%;
+  cursor: pointer;
+}
+.Close_Pic:hover{
+  width: 10%;
+  height: 50%;
+  margin-right: -5%;
+}
